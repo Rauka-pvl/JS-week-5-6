@@ -1,0 +1,32 @@
+{
+  "name": "mongo-products-api",
+  "version": "1.0.0",
+  "description": "Mongo Products API — REST API товаров: MongoDB Node.js Driver -> Mongoose (Практическая работа №3–4)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "start:driver": "node driver/server.driver.js",
+    "dev:driver": "nodemon driver/server.driver.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "rest",
+    "api"
+  ],
+  "author": "Аделканов Рауат, CS-302(с)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0",
+    "mongoose": "^9.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
